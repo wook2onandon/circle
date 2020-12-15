@@ -13,8 +13,8 @@ const circleRandomPos = (circle) => {
   circle.style.left = 0 + 'px'
   circle.style.top = 0 + 'px'
 
-  const getRandomX = () => Math.floor(Math.random() * 1920) + 1;
-  const getRandomY = () => Math.floor(Math.random() * 1080) + 1;
+  const getRandomX = () => Math.floor(Math.random() * 1900) + 1;
+  const getRandomY = () => Math.floor(Math.random() * 900) + 1;
   const nextPosX = getRandomX()
   const nextPosY = getRandomY()
 
