@@ -1,5 +1,4 @@
 const container = document.querySelector('#container')
-// const svg = document.querySelector('#svg')
 
 const createCircle = () => {
   const nextCircle = document.createElement('div')
@@ -47,7 +46,6 @@ const colorAndSize = (circle) => {
   let nextWidthAndHeight = randomNumber(1,10)
   let nextRadius = nextWidthAndHeight/2
   let nextColor = randomColor()
-
 
   circle.style.width = nextWidthAndHeight + 'px'
   circle.style.height = nextWidthAndHeight + 'px'
